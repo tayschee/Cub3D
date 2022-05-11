@@ -30,7 +30,7 @@ You can do your own file.cub to that follow the rules.
 make fclean
 ```
 
-## .cub File
+## Cub file
 
 ### Rules
 - Extension name must be .cub
@@ -56,17 +56,29 @@ make fclean
 ##### Sprite Line
 - Sprite line take the following form: "S path/to/sprite/file"
 - You can have only one sprite line by .cub file
-- Sprite must be .xml file where black color will be replace by transparency
+- Sprite must be a xml file where black color will be replace by transparency
 
 ##### Color Line
 - Floor and ceiling are describe with RGB color
 - You must describe both of them only one time
-- For Floor : "F R,G,B"
-- For Ceiling: "C R,G,B"
+- For Floor : "F RED,GREEN,BLUE"
+- For Ceiling: "C RED,GREEN,BLUE"
 
 
 #### Map Rules
-This is an exemple of .cub file:
+- a map can be construct only with those 6 characters :
+  - 1 for a wall
+  - 2 for a sprite
+  - 0 for an empty space surronded by wall 
+  - N for player who look at the north
+  - S for player who look at the south
+  - W for player who look at the west
+  - E for player who look at the east
+  - " "(space) for an empty space
+- each map must contain exactly one player
+- player must be surrounded by wall
+
+#### Exemple
 
 ```
 R 600 500
