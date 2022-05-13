@@ -6,6 +6,7 @@
 - [About The Project](#about-the-project)
 - [Getting Strated](#getting-started)
 - [Cub File](#cub-file)
+- [Video and Screenshot](#some-video)
 ## About The Project
 [Cub3D](https://cdn.intra.42.fr/pdf/pdf/47636/fr.subject.pdf) is project of 42Paris to learn [raycasting](https://fr.wikipedia.org/wiki/Raycasting#:~:text=Le%20raycasting%20est%20une%20technique,par%20une%20carte%20graphique%20d%C3%A9di%C3%A9e.). \
 It consist to reproduce famous game [Wolfenstein 3D](http://wolf3d.atw.hu/) entirely in C.
@@ -104,3 +105,16 @@ C 50,50,50
   1020000000000001 100000000000001 100000000000001 100000000001 100000000001
   1111111111111111 111111111111111 111111111111111 111111111111 11111111111
 ```
+
+## Video and Screenshot
+
+https://user-images.githubusercontent.com/57805554/168288870-b2780421-9750-4878-ad48-563426def1e1.mp4
+
+
+https://user-images.githubusercontent.com/57805554/168289588-2683be64-ec19-401b-9700-8491a40f276c.mp4
+
+<img width="684" alt="Screenshot 2022-05-13 at 14 52 39" src="https://user-images.githubusercontent.com/57805554/168288796-8c20cdda-91f7-4650-a23f-a186981af052.png">
+
+
+
+
