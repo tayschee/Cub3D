@@ -7,17 +7,19 @@
 - [Usage](#usage)
 - [Getting Started](#getting-started)
 - [Cub File](#cub-file)
-- [Videos And Screenshot](#videos-and-screenshot)
+- [Videos](#videos)
+- [Screenshot](#screenshot)
 
 ## About The Project
 [Cub3D](https://cdn.intra.42.fr/pdf/pdf/47636/fr.subject.pdf) is project of 42Paris to learn [raycasting](https://fr.wikipedia.org/wiki/Raycasting#:~:text=Le%20raycasting%20est%20une%20technique,par%20une%20carte%20graphique%20d%C3%A9di%C3%A9e.). \
-It consist to reproduce famous game [Wolfenstein 3D](http://wolf3d.atw.hu/) entirely in C.
+It consist to reproduce famous game [Wolfenstein 3D](http://wolf3d.atw.hu/) entirely in C with graphic library call MinilibX.
 
 ## Usage
 ```
 usage: ./cub3D file [--save]
 ```
-With the options ```--save ``` you can take a screenshot of the game instead of play. It will be place in screen/cub3d.bmp
+With the options ```--save``` you can take a screenshot of the game instead of play. It will be place in screen/cub3d.bmp
+
 ## Getting Started
 ### Installation
 Clone and move into clone directory:
@@ -26,6 +28,7 @@ git clone git@github.com:tbigot/Cub3D.git Cub3D
 cd Cub3D
 make
 ```
+
 ### Run
 
 Run Cub3D with path to .cub file in parameter like this:
@@ -33,7 +36,6 @@ Run Cub3D with path to .cub file in parameter like this:
 ./cub3D ressources/map/demo.cub
 ```
 You can do your own file.cub to that follow the rules.
-
 
 
 ### Delete
@@ -114,14 +116,18 @@ C 50,50,50
   1111111111111111 111111111111111 111111111111111 111111111111 11111111111
 ```
 
-## Videos and Screenshot
+## Videos
 
-https://user-images.githubusercontent.com/57805554/168288870-b2780421-9750-4878-ad48-563426def1e1.mp4
+https://user-images.githubusercontent.com/57805554/168297234-04c45166-4cc5-429b-ab47-8bff6588b0a8.mp4
 
 
-https://user-images.githubusercontent.com/57805554/168289588-2683be64-ec19-401b-9700-8491a40f276c.mp4
+https://user-images.githubusercontent.com/57805554/168297253-099dd115-62f0-4da0-832d-e9823a56864b.mp4
 
-This image has been taken with the option ```--save``` but readme doesn't support bmp file indeed he is convert to png:
+
+
+## Screenshot
+
+##### This screenshot has been taken with the option ```--save```:
 <img width="684" alt="Screenshot 2022-05-13 at 14 52 39" src="https://user-images.githubusercontent.com/57805554/168288796-8c20cdda-91f7-4650-a23f-a186981af052.png">
 
 
