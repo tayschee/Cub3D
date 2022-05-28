@@ -21,10 +21,13 @@ usage: ./cub3D file [--save]
 With the options ```--save``` you can take a screenshot of the game instead of play. It will be place in screen/cub3d.bmp
 
 ## Getting Started
+### Prerequisites
+![Linux](https://img.shields.io/static/v1?label=Linux&labelColor=555555&logo=Linux&message=5.0.3&logoColor=ffffff&color=ffee00&style=for-the-badge)
+
 ### Installation
 Clone and move into clone directory:
 ```
-git clone git@github.com:tbigot/Cub3D.git Cub3D
+git clone https://github.com/tayschee/Cub3D.git Cub3D
 cd Cub3D
 make
 ```
